@@ -38,11 +38,11 @@ a:active {color: #ffd700}
 .accueil ul {
     width: 100%;
     margin: 0 auto;
-    padding: 17px;
+    padding: 17px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .accueil p {
     font-size: 1.7rem;
