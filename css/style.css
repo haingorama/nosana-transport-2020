@@ -1,0 +1,287 @@
+/*----------             ---***---            ----------! 
+             --------- //Bases //---------*/
+body {
+    font-family: 'Allerta Stencil', sans-serif;
+    margin : 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+    margin : 0 auto;
+}
+h1 {
+    font-size: 2.5rem;
+    border: solid 2px black;
+    margin: 0 auto;
+    width: 410px;
+    padding: 12px;
+    margin-top: -100px;
+}
+h2 {
+    color: #FF0000;
+    font-size: 2.2rem;
+    margin: 70px 0 35px;
+}
+a {text-decoration: none}
+a:link {color: black}
+a:hover  {color: #ffd700;}
+a:visited {color: black}
+a:active {color: #ffd700}
+
+/*----------             ---***---            ----------! 
+             --------- // HEADER //---------*/
+.menu {
+    height: 50px;
+    background-color: white;
+}
+.accueil ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.accueil p {
+    font-size: 1.7rem;
+    margin-top: 60px
+}
+
+/*----------             ---***---            ----------! 
+            --------- // ACCUEIL //---------*/
+.accueil {
+    /* background-image: url(../images/bg-principale.png); */
+    background-image: url(../images/hero.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:bottom;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 80px;
+}
+.accueil p {
+    font-size: 1.8rem;
+    line-height: 2.0;
+}
+.accueil-logo {
+    margin-top: 100px;
+    position: inherit;
+}
+/* .img1 {
+    margin-left: 1100px;
+    margin-top: -900px
+}
+.img2 {
+    margin-top: 110px;
+    margin-left: -1010px;
+} */
+
+/*----------             ---***---            ----------! 
+             --------- // SOCIÉTÉ //---------*/
+.societe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 100%;
+}
+.soc1, .soc2, .soc3 {
+    background-image: url(../images/bg-societe.png);
+    background-size: cover;
+    height: 216px;
+    margin-bottom: 50px;
+}
+.societe img {
+    margin: 50px 900px 0 20px;
+    width: 110px;
+}
+.societe h3 {
+    text-align: center;
+    margin: -112px 0 20px 470px;
+    flex-wrap: wrap;
+}
+.societe p {
+    margin-left: 486px;
+    text-align: justify;
+    line-height: 2.0;
+    padding-right: 95px;
+}
+
+/*----------             ---***---            ----------! 
+           --------- // SERVICES //---------*/
+.services {
+    background-image: url(../images/bg-services.png);
+    background-size: cover;
+    height: 740px;
+}
+.services img {
+    width: 100%;
+    margin: 40px 125px;
+}
+.services h2 {
+    color: #A8171F;
+    font-size: 2rem;
+    margin: 100px 0 100px;
+}
+.services ul {
+    line-height: 2.2;
+    font-size: 1.6rem;
+}
+.services-textes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services-gauche {
+    text-align: justify;
+    padding-left: 52px;
+}
+.services-droite {
+    text-align: right;
+    padding-right: 50px;
+}
+
+/*----------             ---***---            ----------! 
+             --------- // LIEUX //---------*/
+
+.lieux {
+    background-image: url(../images/bg-livraison.png);
+    background-size: cover;
+}
+.titre-lieux{
+    margin-top: 120px;
+}
+.lieux-livraison img {
+    width: 120px;
+}
+.lieux-livraison {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 0 70px 70px;
+}
+.lieux h3 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+.rouge-bdr {
+    width: 533px;
+    padding: 0 50px 40px 0;
+}
+
+/*----------             ---***---            ----------! 
+             --------- // CONTACT //---------*/
+
+.contact {
+    display: flex;
+    height: 750px;
+}
+.contact form {
+    width: 730px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 50px 10px;
+}
+.case {
+    margin: 0 auto;
+    width: 630px;
+    height: 60px;
+}
+.case-commentaires {
+    margin: 0 auto;
+    width: 630px;
+    height: 200px;
+}
+.contact-questionnaire {
+    width: 100px; 
+}
+.case-envoyer {
+    background-color: #ffd700;
+    margin-left: 450px;
+    width: 200px;
+    height: 60px;
+    
+}
+.contact-adresse {
+    width: 470px;
+    height: 750px;
+    background-color: #EDEDED;
+    /*padding: 50px 0 0 0;*/
+}
+.contact-adresse h3 {
+    padding: 70px 0 80px;
+    font-size: 1.9rem;
+}
+.contact-adresse p {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 2.8;
+    margin-bottom: 30px;
+}
+.contact-adresse img {
+    margin-top: 24px
+}
+
+/*----------             ---***---            ----------! 
+             --------- // FOOTER //---------*/
+
+.footer {
+    height: 220px;
+    background-image: url(../images/bg-footer.png);
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: justify;
+    line-height: 1.5;
+}
+.footer ul {
+    line-height: 3.5;
+}
+.footer li {
+    line-height: 1.5;
+}
+.reseaux {
+    padding-top: 20px;
+}
+.footer a {text-decoration: none}
+.footer a:link {color: white}
+.footer a:hover  {color: #ffd700;}
+.footer a:visited {color: white}
+.footer a:active {color: blue}
+
+       /*--------- // **MEDIA QUERIES** //---------*/
+/*----------             ---***---             ----------! 
+        --------- // **MEDIA QUERIES** //---------*/
+
+/* ------------Tablette----------- */
+@media (min-width: 415px) and (max-width: 768px){
+    
+    .wrapper {width: 100%}
+    
+        /*-----Header-----*/
+    .menu ul {
+        flex-direction: column;
+        margin: 0 auto;
+    }  
+    .accueil-logo {
+        
+    }
+    
+}
+    
+/* ------------Mobile----------- */
+@media screen and (max-width: 414px){
+    
+}
